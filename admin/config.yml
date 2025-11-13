@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: static/images # Media files will be stored in the repo under static/images
+public_folder: /images # The src attribute for uploaded media will begin with /images
+
+collections:
+  - name: "destinations" # Used in routes, e.g., /admin/collections/destinations
+    label: "Destinations" # Used in the UI
+    folder: "data/destinations" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{id}}" # Filename template using the id field
+    fields: # The fields for each document, usually in front matter
+      - {label: "Destination ID", name: "id", widget: "string", required: true, hint: "Unique identifier (e.g., rizal, intramuros) - used as filename"}
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Region", name: "region", widget: "select", options: ["ncr", "region-i", "region-ii", "region-iii", "region-iv-a", "mimaropa", "region-v", "car"], required: true}
+      - {label: "Region Display Name", name: "regionDisplay", widget: "string", required: true}
+      - {label: "Image URL", name: "image", widget: "image", required: true}
+      - {label: "Description", name: "description", widget: "text", required: true}
+      - {label: "Details", name: "details", widget: "markdown", required: true}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "data/home.md"
+        fields:
+          - {label: "Hero Title", name: "heroTitle", widget: "string", required: true}
+          - {label: "Hero Subtitle", name: "heroSubtitle", widget: "string", required: true}
+          - {label: "Hero Image", name: "heroImage", widget: "image", required: true}
+          - {label: "Introduction Title", name: "introTitle", widget: "string", required: true}
+          - {label: "Introduction Text", name: "introText", widget: "markdown", required: true}
+          - {label: "About Title", name: "aboutTitle", widget: "string", required: true}
+          - {label: "About Text", name: "aboutText", widget: "markdown", required: true}
+

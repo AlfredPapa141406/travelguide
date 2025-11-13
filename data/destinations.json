@@ -1,0 +1,35 @@
+{
+  "rizal": {
+    "title": "Rizal Park (Luneta)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rizal_Monument_%28Manila%2C_2024%29.jpg",
+    "description": "Rizal Park, also known as Luneta Park, is a historic urban park located in the heart of Manila. Named after the national hero Dr. José Rizal, this 58-hectare park is one of the largest urban parks in Southeast Asia.",
+    "details": "<h3>What to See and Do:</h3><ul><li><strong>Rizal Monument:</strong> Pay tribute to the national hero at this iconic monument where he was executed in 1896</li><li><strong>Japanese Garden:</strong> Experience tranquility in this beautifully landscaped garden with koi ponds and traditional architecture</li><li><strong>Chinese Garden:</strong> Explore pagodas and bridges in this serene Chinese-inspired garden</li><li><strong>National Museum Complex:</strong> Visit nearby museums showcasing Filipino art, culture, and natural history</li><li><strong>Dancing Fountains:</strong> Enjoy the spectacular light and water show in the evenings</li></ul><h3>Best Time to Visit:</h3><p>Early morning (5-7 AM) or late afternoon (4-6 PM) to avoid the midday heat. The park is especially beautiful during sunset.</p><h3>Tips:</h3><ul><li>Bring water and wear comfortable walking shoes</li><li>Watch out for pickpockets in crowded areas</li><li>Perfect spot for jogging, picnics, or relaxing walks</li></ul>",
+    "region": "ncr",
+    "regionDisplay": "Metro Manila"
+  },
+  "intramuros": {
+    "title": "Intramuros - The Walled City",
+    "image": "https://gttp.images.tshiftcdn.com/253806/x/0/ultimate-travel-guide-to-intramuros-old-town-in-manila-city-everything-you-need-to-know-1.jpg",
+    "description": "Intramuros is the historic walled area within the city of Manila. Built in 1571 by the Spanish colonizers, this fortified city was the seat of government and center of religious and political life during the Spanish colonial period.",
+    "details": "<h3>Must-Visit Attractions:</h3><ul><li><strong>Fort Santiago:</strong> A citadel first built by Spanish conquistador Miguel López de Legazpi, featuring dungeons and beautiful gardens</li><li><strong>San Agustin Church:</strong> The oldest stone church in the Philippines, a UNESCO World Heritage Site built in 1607</li><li><strong>Manila Cathedral:</strong> A stunning Romanesque-revival style cathedral, the seat of the Archbishop of Manila</li><li><strong>Casa Manila:</strong> A museum showcasing Spanish colonial lifestyle with authentic period furniture</li><li><strong>Baluarte de San Diego:</strong> A well-preserved bastion offering great views of the surrounding area</li></ul><h3>How to Explore:</h3><ul><li>Walking tour (2-3 hours)</li><li>Bamboo bike tour (eco-friendly option)</li><li>Kalesa (horse-drawn carriage) ride for a traditional experience</li></ul><h3>Pro Tips:</h3><ul><li>Wear comfortable shoes - lots of cobblestone streets!</li><li>Bring an umbrella for sun or sudden rain</li><li>Visit on weekdays to avoid crowds</li></ul>",
+    "region": "ncr",
+    "regionDisplay": "Metro Manila"
+  },
+  "museum": {
+    "title": "National Museum of the Philippines",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/National_Museum_of_Fine_Arts_Manila_2024.jpg",
+    "description": "The National Museum of the Philippines is a network of museums that showcases the rich cultural heritage and natural history of the country. The complex consists of three main buildings near Rizal Park.",
+    "details": "<h3>Main Museums:</h3><ul><li><strong>National Museum of Fine Arts:</strong> Houses the famous \"Spoliarium\" by Juan Luna and other masterpieces of Filipino art</li><li><strong>National Museum of Anthropology:</strong> Features the San Diego shipwreck collection and cultural artifacts from various Filipino ethnic groups</li><li><strong>National Museum of Natural History:</strong> Showcases the Tree of Life installation and Philippine biodiversity</li></ul><h3>Highlights:</h3><ul><li>Juan Luna's \"Spoliarium\" - a massive painting depicting fallen gladiators</li><li>The Tree of Life - a stunning five-story installation in the Natural History Museum</li><li>Ancient gold artifacts and burial jars</li><li>Dinosaur fossils and taxidermy displays</li></ul><h3>Visitor Information:</h3><ul><li><strong>Entrance:</strong> FREE admission to all National Museums</li><li><strong>Hours:</strong> Tuesday to Sunday, 10:00 AM - 5:00 PM (Closed Mondays)</li><li><strong>Tip:</strong> Photography is allowed but no flash inside galleries</li></ul>",
+    "region": "ncr",
+    "regionDisplay": "Metro Manila"
+  },
+  "oceanpark": {
+    "title": "Manila Ocean Park",
+    "image": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/activities/gnv9xo36fao0z0zjnony/ManilaOceanParkTicket-KlookUnitedStates.jpg",
+    "description": "Manila Ocean Park is an oceanarium and marine-themed park located behind Quirino Grandstand at Rizal Park. It features a variety of marine life, interactive exhibits, and entertainment shows.",
+    "details": "<h3>Main Attractions:</h3><ul><li><strong>Oceanarium:</strong> Walk through a 25-meter underwater tunnel surrounded by various marine species</li><li><strong>Jellies Exhibit:</strong> Mesmerizing display of colorful jellyfish in specially designed tanks</li><li><strong>Penguin Talk:</strong> Get up close with Humboldt penguins and learn about their habitat</li><li><strong>Sea Lion Show:</strong> Entertaining performances by trained sea lions</li><li><strong>All-Star Bird Show:</strong> Watch tropical birds showcase their talents</li><li><strong>Symphony Evening Show:</strong> Multimedia fountain show with lights and music</li></ul><h3>Interactive Experiences:</h3><ul><li>Fish Spa - let fish gently nibble away dead skin</li><li>Stingray interaction pool</li><li>Behind-the-scenes tour options</li></ul><h3>Practical Information:</h3><ul><li><strong>Hours:</strong> 10:00 AM - 6:00 PM daily</li><li><strong>Duration:</strong> Plan for 3-4 hours to see everything</li><li><strong>Tickets:</strong> Various packages available, check website for current prices</li><li><strong>Best for:</strong> Families with children, couples, marine life enthusiasts</li></ul>",
+    "region": "ncr",
+    "regionDisplay": "Metro Manila"
+  }
+}
+

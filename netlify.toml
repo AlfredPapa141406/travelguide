@@ -1,0 +1,21 @@
+[images]
+  remote_images = ["https://source.unsplash.com/.*", "https://images.unsplash.com/.*", "https://ext.same-assets.com/.*", "https://ugc.same-assets.com/.*"]
+
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+# Enable Netlify Identity
+[build.environment]
+  NETLIFY_USE_NEXT_PLUGIN = "true"
+
+# Redirects - exclude admin from SPA routing
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations in the Philippines</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Philippines Travel</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Discover the Philippines</h1>
+            <p class="hero-subtitle fade-in">Explore breathtaking destinations across 7,641 islands</p>
+            <a href="#destinations" class="hero-btn fade-in">Start Exploring</a>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content fade-in-up">
+                <h2>Welcome to Paradise</h2>
+                <p>The Philippines is a tropical archipelago known for its stunning beaches, rich culture, and warm hospitality. From the bustling streets of Metro Manila to the pristine shores of Palawan, each destination offers unique experiences that will create memories to last a lifetime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Featured Destinations</h2>
+            <p class="section-subtitle fade-in-up">Discover Amazing Destinations Across Luzon</p>
+
+            <!-- Region Filters -->
+            <div class="region-filters fade-in-up">
+                <div class="filter-group">
+                    <label for="regionFilter" class="filter-group-title">Luzon Regions</label>
+                    <div class="filter-control">
+                        <select id="regionFilter" class="filter-select">
+                            <option value="all">All Regions</option>
+                            <option value="ncr">NCR (Metro Manila)</option>
+                            <option value="region-i">Region I</option>
+                            <option value="region-ii">Region II</option>
+                            <option value="region-iii">Region III</option>
+                            <option value="region-iv-a">Region IV-A</option>
+                            <option value="mimaropa">MIMAROPA</option>
+                            <option value="region-v">Region V</option>
+                            <option value="car">CAR</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destinations-grid">
+                <!-- Rizal Park Card -->
+                <div class="destination-card fade-in-up" data-id="1" data-region="ncr">
+                    <div class="card-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Rizal_Monument_%28Manila%2C_2024%29.jpg" alt="Rizal Park" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Metro Manila</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Rizal Park</h3>
+                        <p class="card-description">A historic urban park in Manila, featuring the iconic Rizal Monument. Perfect for morning walks and cultural immersion.</p>
+                        <a href="destinations/rizal.html" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Intramuros Card -->
+                <div class="destination-card fade-in-up" data-id="2" data-region="ncr">
+                    <div class="card-image">
+                        <img src="https://gttp.images.tshiftcdn.com/253806/x/0/ultimate-travel-guide-to-intramuros-old-town-in-manila-city-everything-you-need-to-know-1.jpg" alt="Intramuros" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Metro Manila</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Intramuros</h3>
+                        <p class="card-description">The historic walled city of Manila, dating back to the Spanish colonial era. Explore centuries-old churches and fortifications.</p>
+                        <a href="destinations/intramuros.html" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- National Museum Card -->
+                <div class="destination-card fade-in-up" data-id="3" data-region="ncr">
+                    <div class="card-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/National_Museum_of_Fine_Arts_Manila_2024.jpg" alt="National Museum" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Metro Manila</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">National Museum</h3>
+                        <p class="card-description">Home to the country's finest collection of art, artifacts, and natural history. A cultural treasure trove.</p>
+                        <a href="destinations/museum.html" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Manila Ocean Park Card -->
+                <div class="destination-card fade-in-up" data-id="4" data-region="ncr">
+                    <div class="card-image">
+                        <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/activities/gnv9xo36fao0z0zjnony/ManilaOceanParkTicket-KlookUnitedStates.jpg" alt="Manila Ocean Park" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Metro Manila</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Manila Ocean Park</h3>
+                        <p class="card-description">An oceanarium showcasing marine life from the Philippines and around the world. Perfect for family adventures.</p>
+                        <a href="destinations/oceanpark.html" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Region I - Ilocos Region Samples -->
+                <div class="destination-card fade-in-up" data-id="5" data-region="region-i">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop" alt="Vigan Heritage City" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Region I</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Vigan Heritage City</h3>
+                        <p class="card-description">A UNESCO World Heritage Site featuring well-preserved Spanish colonial architecture. Walk through history in this charming city.</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="destination-card fade-in-up" data-id="6" data-region="region-i">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop" alt="Bangui Windmills" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Region I</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Bangui Windmills</h3>
+                        <p class="card-description">The first wind farm in the Philippines, featuring 20 wind turbines along the coastline. A stunning sight to behold.</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Region II - Cagayan Valley Samples -->
+                <div class="destination-card fade-in-up" data-id="7" data-region="region-ii">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop" alt="Callao Cave" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Region II</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Callao Cave</h3>
+                        <p class="card-description">A seven-chambered cave system with stunning limestone formations and a natural skylight. A spelunking adventure awaits.</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Region III - Central Luzon Samples -->
+                <div class="destination-card fade-in-up" data-id="8" data-region="region-iii">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=600&fit=crop" alt="Mount Pinatubo" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Region III</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Mount Pinatubo</h3>
+                        <p class="card-description">A stunning crater lake formed after the 1991 eruption. Trek through lahar fields to reach this natural wonder.</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Region IV-A - CALABARZON Samples -->
+                <div class="destination-card fade-in-up" data-id="9" data-region="region-iv-a">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=600&fit=crop" alt="Taal Volcano" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Region IV-A</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Taal Volcano</h3>
+                        <p class="card-description">The world's smallest active volcano with a crater lake. A unique geological wonder in Batangas.</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- MIMAROPA Samples -->
+                <div class="destination-card fade-in-up" data-id="10" data-region="mimaropa">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop" alt="Puerto Princesa Underground River" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">MIMAROPA</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Puerto Princesa Underground River</h3>
+                        <p class="card-description">A UNESCO World Heritage Site and one of the New 7 Wonders of Nature. Navigate through stunning limestone karst formations.</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Region V - Bicol Samples -->
+                <div class="destination-card fade-in-up" data-id="11" data-region="region-v">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop" alt="Mayon Volcano" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">Region V</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Mayon Volcano</h3>
+                        <p class="card-description">The world's most perfect cone-shaped volcano. A majestic natural landmark in Albay province.</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+                <!-- CAR - Cordillera Samples -->
+                <div class="destination-card fade-in-up" data-id="12" data-region="car">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop" alt="Banaue Rice Terraces" loading="lazy">
+                        <div class="card-overlay">
+                            <span class="card-location">CAR</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Banaue Rice Terraces</h3>
+                        <p class="card-description">Ancient rice terraces carved into mountains by Ifugao people. A UNESCO World Heritage Site and engineering marvel.</p>
+                        <a href="#" class="read-more-btn">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content fade-in-up">
+                <h2>About This Guide</h2>
+                <p>This travel guide is your gateway to discovering the Philippines' most incredible destinations. We curate the best spots, hidden gems, and must-visit attractions to help you plan your perfect Philippine adventure. Whether you're a history buff, beach lover, or adventure seeker, the Philippines has something special waiting for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content fade-in-up">
+                <h2>Get in Touch</h2>
+                <p>Have questions or suggestions? We'd love to hear from you!</p>
+                <a href="mailto:hello@philippinestravel.com" class="contact-btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Philippines Travel Guide. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="destinationModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body">
+                <img src="" alt="" class="modal-image" id="modalImage">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <p class="modal-description" id="modalDescription"></p>
+                <div class="modal-details" id="modalDetails"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="src/main.js" defer></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+</body>
+</html>
